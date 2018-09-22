@@ -40,6 +40,6 @@ fi
 
 setxkbmap gb &
 sh ~/.fehbg &
+sh ~/.redshift &
 exec compton --config=.config/compton.conf &
-exec i3
-
+exec i3 --shmlog-size=26214400

@@ -20,7 +20,7 @@ B_WRONG='#ff0000ff'
 R_WRONG='#800000ff'
 T_WRONG='#ffffccff'
 
-i3lock -i /home/mconway/.config/lockscreen.jpg -t \
+i3lock -i /home/dmohamad/.config/lockscreen.jpg -t \
 \
 --linecolor=$LINE \
 --timecolor=$TEXT \

@@ -4,7 +4,7 @@
 urxvt.scrollBar: false
 urxvt.background: black
 urxvt.foreground: gray
-urxvt.transparent: true
+urxvt.transparent: false 
 urxvt.shading: 20
 
 !! Graphics settings:
