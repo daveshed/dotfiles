@@ -36,7 +36,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 
 # Screen lock
 # bindsym $mod+Shift+Return exec /home/dmohamad/.config/i3lock/i3lock.sh
-bindsym $mox+Shift+Return exec i3lock
+bindsym $mod+Shift+Return exec i3lock
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -160,6 +160,11 @@ bindsym $mod+r mode "resize"
 # control display brightness
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+
+# control volume from laptop volume keys
+bindsym XF86AudioLowerVolume exec pamixer -d 2
+bindsym XF86AudioRaiseVolume exec pamixer -i 2
+bindsym XF86AudioMute exec /home/$USER/.toggle-mute 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
